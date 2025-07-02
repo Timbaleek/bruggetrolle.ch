@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Titlebar from "$lib/Titlebar.svelte";
+</script>
+
+<Titlebar></Titlebar>
+
+<p class="title">Grosses Bild</p>
+<div class="Block">
+    News
+    <div>Neue Mitglieder Flyertext</div>
+    <div>Vereinsgründung</div>
+    <div>Alte Produktion</div>
+</div>
