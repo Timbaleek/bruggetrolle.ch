@@ -21,6 +21,13 @@
             description: "Some more content content here",
             image: Ibfdd_plakat,
         },
+        {
+            title: "Title 2",
+            subtitle: "haha",
+            date: "1-06-2000",
+            description: "Some more content content here",
+            image: Ibfdd_plakat,
+        },
     ];
 </script>
 
@@ -34,22 +41,13 @@
 
     <div class="higlight-list">
         {#each items as item}
-            <HighlightArticle>
-                <img
-                    slot="img"
-                    src={item.image}
-                    alt="Highlight"
-                    class="highlight-image"
-                />
-                <h2 slot="title" class="title is-4">{item.title}</h2>
-                <h3 slot="subtitle" class="subtitle is-6">
-                    {item.subtitle}
-                </h3>
-                <p slot="description">{item.description}</p>
-                <p slot="date" class="subtitle is-6 has-text-right">
-                    {item.date}
-                </p></HighlightArticle
-            >
+            <HighlightArticle
+                image={item.image}
+                title={item.title}
+                subtitle={item.subtitle}
+                date={item.date}
+                description={item.description}
+            ></HighlightArticle>
         {/each}
     </div>
 </BaseWrapper>

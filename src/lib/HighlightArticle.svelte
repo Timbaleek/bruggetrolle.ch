@@ -1,13 +1,15 @@
+<script lang="ts">
+    export let title: string = "";
+    export let subtitle: string = "";
+    export let date: string = "";
+    export let description: string = "";
+    export let image: string = "";
+</script>
+
 <article class="media">
     <figure class="media-left">
         <p class="image">
-            <slot name="img"
-                ><img
-                    src={Ibfdd_plakat}
-                    alt="Placeholder"
-                    class="highlight-image"
-                /></slot
-            >
+            <img src={image} alt="Placeholder" class="highlight-image" />
         </p>
     </figure>
     <div class="media-content">
@@ -15,30 +17,20 @@
             <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        <slot name="title">
-                            <h2 class="title is-4">Titel</h2>
-                        </slot>
+                        <h2 class="title is-4">{title}</h2>
                     </div>
                 </div>
                 <div class="level-right">
                     <div class="level-item">
-                        <slot name="date">
-                            <span class="subtitle is-6 has-text-right">
-                                Datum
-                            </span>
-                        </slot>
+                        <span class="subtitle is-6 has-text-right">
+                            {date}
+                        </span>
                     </div>
                 </div>
             </div>
 
-            <h3 class="subtitle is-6">
-                <slot name="subtitle">Untertitel</slot>
-            </h3>
-            <p>
-                <slot name="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </slot>
-            </p>
+            <h3 class="subtitle is-6">{subtitle}</h3>
+            <p>{description}</p>
         </div>
         <div class="media-right"></div>
     </div>

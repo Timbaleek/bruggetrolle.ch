@@ -10,6 +10,25 @@
 
     //addToListButton.addEventListener("click", function (e) {});
 
+    let firstname: string = "";
+    let lastname: string = "";
+    let email: string = "";
+
+    let emailInput: HTMLInputElement;
+
+    $: email = email.trim();
+    $: {
+        if (emailInput) {
+            if (email.length > 0 && !email.match(/\S+@\S+\.\S+/g)) {
+                emailInput.classList.add("is-danger");
+            } else {
+                emailInput.classList.remove("is-danger");
+            }
+        }
+    }
+    $: firstname = firstname.trim();
+    $: lastname = lastname.trim();
+
     function addToMailingList() {
         const inputs =
             document.querySelectorAll<HTMLInputElement>(".mailinglist-input");
@@ -27,24 +46,17 @@
             names.map((name) => `"${name}"`).join("\n");
         const encodedUri = encodeURI(csvContent);
 
-        // Save the CSV content to a file on the server using Node.js
-        // This part is commented out because it requires server-side code
-        // var fs = require("node:fs");
+        // function saveToServer() {
+        //     const reader = new FileReader();
+        //     reader.onload = (e) => {
+        //         const csvData = event.target?.result as string;
+        //         // Here you would typically send the csvData to your server
+        //         // using an HTTP request, e.g., using fetch or axios.
+        //         console.log("CSV Data to be sent to server:", csvData);
+        //     };
+        // }
 
-        // fs.writeFile(
-        //     "form-tracking/formList.csv",
-        //     csvContent,
-        //     "utf8",
-        //     function (err: any) {
-        //         if (err) {
-        //             console.log(
-        //                 "Some error occured - file either not saved or corrupted file saved.",
-        //             );
-        //         } else {
-        //             console.log("It's saved!");
-        //         }
-        //     },
-        // );
+        // Save the CSV content to a file on the server using Node.js
 
         // Create a link to download the CSV file
         // const link = document.createElement("a");
@@ -85,9 +97,10 @@
                         <label class="label" for="firstname">Vorname</label>
                         <div class="control">
                             <input
-                                class="input mailinglist-input"
+                                class="input"
                                 type="text"
-                                id="firstname"
+                                bind:value={firstname}
+                                required
                             />
                         </div>
                     </div>
@@ -95,9 +108,10 @@
                         <label class="label" for="lastname">Nachname</label>
                         <div class="control">
                             <input
-                                class="input mailinglist-input"
+                                class="input"
                                 type="text"
-                                id="lastname"
+                                bind:value={lastname}
+                                required
                             />
                         </div>
                     </div>
@@ -107,10 +121,12 @@
                 <label class="label" for="email">E-Mail</label>
                 <div class="control has-icons-left">
                     <input
-                        class="input mailinglist-input"
+                        class="input"
                         type="email"
                         placeholder="E-Mail"
-                        id="email"
+                        bind:value={email}
+                        bind:this={emailInput}
+                        required
                     />
                     <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
