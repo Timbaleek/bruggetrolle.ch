@@ -1,10 +1,9 @@
 <script>
+    import BaseWrapper from "$lib/BaseWrapper.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
 </script>
 
-<Titlebar></Titlebar>
-
-<h1>amogus</h1>
+<BaseWrapper></BaseWrapper>
 
 <style>
     h1 {

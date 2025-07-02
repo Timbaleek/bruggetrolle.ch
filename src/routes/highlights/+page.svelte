@@ -1,104 +1,62 @@
 <script lang="ts">
+    import BaseWrapper from "$lib/BaseWrapper.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
     import { expoIn } from "svelte/easing";
+    import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
+    import HighlightArticle from "$lib/HighlightArticle.svelte";
 
-    const addToListButton = document.getElementById(
-        "exportBaddToMailingListButton",
-    ) as HTMLButtonElement;
-
-    //addToListButton.addEventListener("click", function (e) {});
-
-    /*function addToMailingList() {
-        const inputs =
-            document.querySelectorAll<HTMLInputElement>(".name-input");
-        const names = Array.from(inputs)
-            .map((input) => input.value.trim())
-            .filter((name) => name.length > 0);
-
-        if (names.length === 0) {
-            alert("Please enter at least one name.");
-            return;
-        }
-
-        const csvContent =
-            "data:text/csv;charset=utf-8," +
-            names.map((name) => `"${name}"`).join("\n");
-        const encodedUri = encodeURI(csvContent);
-        const link = document.createElement("a");
-        link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "names.csv");
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }*/
+    const items = [
+        {
+            title: "Ich bin für dich da.",
+            subtitle: "Die erste Produktion des Vereins.",
+            date: "15.-23. Juni 2024",
+            description:
+                "Unsere erste Produktion als Verein. Wir haben uns sehr gefreut, wieder auf der Bühne zu stehen. Aufgeführt wurde 'Ich bin für dich da.', ein selbstgeschriebenes Stück, das die Beziehung zwischen Geschwistern und ihren Schutzengeln thematisiert.",
+            image: Ibfdd_plakat,
+        },
+        {
+            title: "Title 2",
+            subtitle: "haha",
+            date: "1-06-2000",
+            description: "Some more content content here",
+            image: Ibfdd_plakat,
+        },
+    ];
 </script>
 
-<Titlebar></Titlebar>
+<BaseWrapper>
+    <h1 class="title">Highlights</h1>
 
-<h1 class="title">Kontakt</h1>
-
-<p class="subtitle">
-    Hier kannst du uns kontaktieren, wenn du Fragen hast oder mehr über uns
-    erfahren möchtest.
-</p>
-
-<div class="content">
-    <p class="block">
-        Bei Anfragen, zögere nicht, uns eine E-Mail zu schreiben: <a
-            href="mailto:vorstand@bruggetrolle.ch">vorstand@bruggetrolle.ch</a
-        >
+    <p class="subtitle">
+        Hier siehst du Highlights von unseren vergangenen Aufführungen und
+        Events.
     </p>
 
-    <p class="block">
-        Oder schreib' uns auf <a href="TODO instagram">Instagram</a>
-    </p>
-
-    <div class="block">
-        Wenn du für Aufführungen und Events informiert werden willst, schreibe
-        dich hier in die Mailingliste ein.
-
-        <div class="field is-horizontal">
-            <div class="field-body">
-                <div class="field">
-                    <label class="label">Vorname</label>
-                    <div class="control">
-                        <input
-                            class="input"
-                            type="text"
-                            placeholder="Text input"
-                        />
-                    </div>
-                </div>
-                <div class="field">
-                    <label class="label">Nachname</label>
-                    <div class="control">
-                        <input
-                            class="input"
-                            type="text"
-                            placeholder="Text input"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="field">
-            <label class="label">E-Mail</label>
-            <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="E-Mail" />
-                <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
-                </span>
-            </div>
-        </div>
-        <div class="field">
-            <div class="control">
-                <button class="button is-primary" id="addToMailingListButton">
-                    Absenden
-                </button>
-            </div>
-        </div>
+    <div class="higlight-list">
+        {#each items as item}
+            <HighlightArticle>
+                <img
+                    slot="img"
+                    src={item.image}
+                    alt="Highlight"
+                    class="highlight-image"
+                />
+                <h2 slot="title" class="title is-4">{item.title}</h2>
+                <h3 slot="subtitle" class="subtitle is-6">
+                    {item.subtitle}
+                </h3>
+                <p slot="description">{item.description}</p>
+                <p slot="date" class="subtitle is-6 has-text-right">
+                    {item.date}
+                </p></HighlightArticle
+            >
+        {/each}
     </div>
-</div>
+</BaseWrapper>
 
 <style>
+    .highlight-image {
+        height: 40vh;
+        object-fit: cover;
+    }
 </style>
