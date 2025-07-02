@@ -1,28 +1,33 @@
 import { promises as fs } from "fs";
 import type { RequestHandler } from '@sveltejs/kit';
 
+export const load = async () => {
+    return {}
+}
+
 export const actions = {
-    uploadData: async ({ request }) => {
-        const form = await request.formData();
-        const file = form.get('file')?.toString() ?? '' as string;
+    default: async ({ request }) => {
+        const form: { [key: string]: FormDataEntryValue; } = Object.fromEntries(await request.formData());//await request.formData();
+        console.log(form);
+        // const file = form.get('file')?.toString() ?? '' as string;
 
         await fs.appendFile(
-            "static/mailingList.csv", file, 'utf8')
-
-        // if (!file) {
-        //     return { status: 400, body: { error: 'No file uploaded' } };
-        // }
-
-        // try {
-        //     const data = await file.text();
-        //     // Process the data as needed
-        //     console.log(data);
-        //     return { status: 200, body: { message: 'File uploaded successfully' } };
-        // } catch (error) {
-        //     console.error('Error reading file:', error);
-        //     return { status: 500, body: { error: 'Failed to read file' } };
-        // }
+            "data/mailingList.csv", Object.values(form).join(',') + '\n', 'utf8')
     }
+    // if (!file) {
+    //     return { status: 400, body: { error: 'No file uploaded' } };
+    // }
+
+    // try {
+    //     const data = await file.text();
+    //     // Process the data as needed
+    //     console.log(data);
+    //     return { status: 200, body: { message: 'File uploaded successfully' } };
+    // } catch (error) {
+    //     console.error('Error reading file:', error);
+    //     return { status: 500, body: { error: 'Failed to read file' } };
+    // }
+
 
     // fs.appendFile(
     //     "form-tracking/formList.csv",

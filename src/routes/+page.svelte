@@ -1,4 +1,5 @@
 <script>
+    import MailingListForm from "$lib/MailingListForm.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
 </script>
 
@@ -20,7 +21,8 @@
     <div class="container">
         <p class="title"></p>
         <div class="Block">
-            News
+            <h1>News</h1>
+            <MailingListForm></MailingListForm>
             <div>Neue Mitglieder Flyertext</div>
             <div>Vereinsgründung</div>
             <div>Alte Produktion</div>
