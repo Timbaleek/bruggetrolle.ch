@@ -1,9 +1,13 @@
-import { promises as fs } from "fs";
-import type { RequestHandler } from '@sveltejs/kit';
+import { createClient } from '@supabase/supabase-js'
+import { SUPABASE_ANON_KEY, SUPABASE_URL } from '$env/static/private'
+
+export const _supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 export const load = async () => {
     return {}
 }
+
+let url = 'https://bruggetrolle.ch/';
 
 export const actions = {
     default: async ({ request }) => {
@@ -11,9 +15,22 @@ export const actions = {
         console.log(form);
         // const file = form.get('file')?.toString() ?? '' as string;
 
-        await fs.appendFile(
-            "data/mailingList.csv", Object.values(form).join(',') + '\n', 'utf8')
+        let entry: { [key: string]: string; } = {
+            firstname: form.firstname?.toString() ?? '',
+            lastname: form.lastname?.toString() ?? '',
+            email: form.email?.toString() ?? '',
+        };
+
+
+        const { data, error } = await _supabase
+            .from('mailingList')
+            .insert([entry]);
+
+        console.log(data, error);
+        // fs.appendFile("data/mailingList.csv", Object.values(form).join(',') + '\n', 'utf8')
     }
+
+
     // if (!file) {
     //     return { status: 400, body: { error: 'No file uploaded' } };
     // }
