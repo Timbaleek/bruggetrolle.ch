@@ -21,8 +21,6 @@
     $: lastname = lastname.trim();
 </script>
 
-Wenn Du für Aufführungen und Events informiert werden willst, schreibe dich hier
-in die Mailingliste ein.
 <form class="form" method="POST" use:enhance>
     <div class="field is-horizontal">
         <div class="field-body">
