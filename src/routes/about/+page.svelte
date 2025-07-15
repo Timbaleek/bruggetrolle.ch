@@ -42,7 +42,7 @@
             subtitle: "Location, Technik",
             image: kallePB,
             description:
-                "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES. VOLUPTAS, VOLUPTATE, VOLUPTATUM, VOLUPTATIBUS, VOLUPTATIS.",
+                "Ich stand zwar auch schon auf der Bühne, entfalte mich aber lieber hinter den Kulissen. Es fasziniert mich, das letzte Bisschen aus der Technik herauszukitzeln und die Schauspieler in das perfekte Licht zu stellen.",
             date: "Seit März 2025",
         },
     ];

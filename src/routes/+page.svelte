@@ -86,7 +86,7 @@
 </div>
 
 <style>
-    :global {
+    :root {
         .cover-text {
             font-family: "Chau Philomene One", sans-serif;
         }

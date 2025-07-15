@@ -15,7 +15,7 @@
     <div class="content">
         <p class="block"></p>
 
-        <h2 class="subtitle">Gönner werden</h2>
+        <h2 class="subtitle is-3">Gönner werden</h2>
         <p class="block">
             Als Gönner bezahlen sie regelmässig einen Betrag ein, um uns zu
             unterstützen. Sie werden unter Gönnern aufgelistet und erhalten,
@@ -37,7 +37,7 @@
         </p>
 
         <div class="block">
-            <h2 class="subtitle">
+            <h2 class="subtitle is-3">
                 Hier findest du alle Gönner und Sponsoren der Bruggetrolle
             </h2>
         </div>
