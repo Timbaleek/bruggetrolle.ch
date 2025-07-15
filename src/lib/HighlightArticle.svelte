@@ -1,16 +1,22 @@
 <script lang="ts">
-    export let title: string = "";
-    export let subtitle: string = "";
-    export let date: string = "";
-    export let description: string = "";
-    export let image: string = "";
+    let {
+        title,
+        subtitle = "",
+        date = "",
+        description = "",
+        image = "",
+    } = $props();
 </script>
 
 <article class="media">
     <figure class="media-left">
-        <p class="image">
-            <img src={image} alt="Placeholder" class="highlight-image" />
-        </p>
+        <div class="image">
+            {#if image}
+                <img src={image} alt="Placeholder" class="highlight-image" />
+            {:else}
+                <div class=""></div>
+            {/if}
+        </div>
     </figure>
     <div class="media-content">
         <div class="content">
@@ -36,11 +42,14 @@
     </div>
 </article>
 
-<div class="divider is-vertical"></div>
+<hr class="divider" />
 
 <style>
     .highlight-image {
-        height: 40vh;
-        object-fit: cover;
+        max-height: 35vh;
+        object-fit: contain;
+    }
+    .image {
+        width: 15rem;
     }
 </style>

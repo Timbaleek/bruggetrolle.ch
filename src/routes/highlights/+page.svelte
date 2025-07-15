@@ -1,4 +1,6 @@
 <script lang="ts">
+    import ArticleList from "../../lib/ArticleList.svelte";
+
     import BaseWrapper from "$lib/BaseWrapper.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
     import { expoIn } from "svelte/easing";
@@ -15,17 +17,19 @@
             image: Ibfdd_plakat,
         },
         {
-            title: "Title 2",
-            subtitle: "haha",
-            date: "1-06-2000",
-            description: "Some more content content here",
-            image: Ibfdd_plakat,
+            title: "Ein Sommernachtstraum",
+            subtitle: "Produktion des Kantitheaters Baden",
+            date: "13. März 2020",
+            description:
+                "Aufgrund der Corona-Pandemie wurde die Aufführung abgesagt.",
+            image: "",
         },
         {
-            title: "Title 2",
-            subtitle: "haha",
-            date: "1-06-2000",
-            description: "Some more content content here",
+            title: "Ich bin für dich da.",
+            subtitle: "Die erste Produktion des Vereins.",
+            date: "15.-23. Juni 2024",
+            description:
+                "Unsere erste Produktion als Verein. Wir haben uns sehr gefreut, wieder auf der Bühne zu stehen. Aufgeführt wurde 'Ich bin für dich da.', ein selbstgeschriebenes Stück, das die Beziehung zwischen Geschwistern und ihren Schutzengeln thematisiert.",
             image: Ibfdd_plakat,
         },
     ];
@@ -39,22 +43,8 @@
         Events.
     </p>
 
-    <div class="higlight-list">
-        {#each items as item}
-            <HighlightArticle
-                image={item.image}
-                title={item.title}
-                subtitle={item.subtitle}
-                date={item.date}
-                description={item.description}
-            ></HighlightArticle>
-        {/each}
-    </div>
+    <ArticleList {items}></ArticleList>
 </BaseWrapper>
 
 <style>
-    .highlight-image {
-        height: 40vh;
-        object-fit: cover;
-    }
 </style>
