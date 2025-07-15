@@ -1,5 +1,6 @@
 <script>
     import BaseWrapper from "$lib/BaseWrapper.svelte";
+    import DownloadLink from "$lib/DownloadLink.svelte";
     import MailToVorstand from "$lib/MailToVorstand.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
 </script>
@@ -17,29 +18,29 @@
 
         <h2 class="subtitle is-3">Gönner werden</h2>
         <p class="block">
-            Als Gönner bezahlen sie regelmässig einen Betrag ein, um uns zu
-            unterstützen. Sie werden unter Gönnern aufgelistet und erhalten,
-            wenn Sie es wünschen, Informationen zu kommenden Aufführungen und
-            Events des Vereins. Füllen Sie dafür bitte das <span
-                class="icon-text"
-            >
-                <span class="icon has-text-link">
-                    <i class="fa-solid fa-download"></i>
-                </span>
-                <span
-                    ><a href="link/to/your/download/file" download
-                        >Gönnerformular</a
-                    ></span
-                >
-            </span>
-
-            aus und senden Sie es an unsere E-Mail Adresse <MailToVorstand />
+            Herzlichen Dank an unsere Gönner! Dank eurer Unterstützung können
+            wir unser Hobby ausleben und coole Produktionen auf die Beine
+            stellen. Willst du uns auch unter die Arme greifen? Dann schick uns
+            das <DownloadLink
+                name="Formular"
+                link="$lib/assets/sponsorsgönnerformular.pdf"
+            /> ausgefüllt an <MailToVorstand />, wir freuen uns über jeden
+            Beitrag! Als Gönner bezahlen sie regelmässig einen Betrag ein, um
+            uns zu unterstützen. Sie werden unter Gönnern aufgelistet und
+            erhalten, wenn Sie es wünschen, Informationen zu kommenden
+            Aufführungen und Events des Vereins.
         </p>
 
         <div class="block">
             <h2 class="subtitle is-3">
                 Hier findest du alle Gönner und Sponsoren der Bruggetrolle
             </h2>
+            <p class="block">
+                Willst du stattdessen im Namen deines Unternehmens unsere
+                Leidenschaft unterstützen und so die Kultur in der Region
+                fördern? Dann melde dich bei uns unter
+                <MailToVorstand />, wir freuen uns mit dir zusammenzuarbeiten!
+            </p>
         </div>
     </div>
 </BaseWrapper>
