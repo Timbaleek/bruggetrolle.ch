@@ -7,6 +7,21 @@
         <a class="navbar-item" href="/">
             <Logo />
         </a>
+        <button
+            onclick={() => {
+                const navbar = document.getElementById("mainNavbar");
+                navbar?.classList.toggle("is-active");
+            }}
+            class="navbar-burger has-text-light"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+        >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
     </div>
 
     <div id="mainNavbar" class="navbar-menu">

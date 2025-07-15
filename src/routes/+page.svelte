@@ -67,7 +67,7 @@
         <ArticleList items={firstItem}></ArticleList>
     </div>
 </div>
-<div class="section p-0">
+<div class="section ptb-0">
     <div class="container">
         <h1 class="title">Mailingliste</h1>
         <p class="subtitle">

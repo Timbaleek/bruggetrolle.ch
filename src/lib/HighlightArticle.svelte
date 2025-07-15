@@ -44,12 +44,36 @@
 
 <hr class="divider" />
 
-<style>
+<style lang="scss">
+    @use "bulma/sass/utilities/mixins";
+
+    $breakpoint: 768px;
+
     .highlight-image {
         max-height: 35vh;
         object-fit: contain;
     }
     .image {
         width: 15rem;
+    }
+    @include mixins.until($breakpoint) {
+        .media {
+            flex-direction: column;
+        }
+        .title {
+            padding-top: 2rem;
+        }
+        .subtitle {
+            text-align: center;
+        }
+        .media-left {
+            min-width: 100%;
+        }
+        .image {
+            width: 100%;
+        }
+        .highlight-image {
+            max-height: 60vh;
+        }
     }
 </style>
