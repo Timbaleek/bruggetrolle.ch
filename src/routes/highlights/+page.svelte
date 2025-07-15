@@ -36,9 +36,9 @@
 </script>
 
 <BaseWrapper>
-    <h1 class="title">Highlights</h1>
+    <h1 class="title is-1">Highlights</h1>
 
-    <p class="subtitle">
+    <p class="subtitle is-3">
         Hier siehst du Highlights von unseren vergangenen Aufführungen und
         Events.
     </p>

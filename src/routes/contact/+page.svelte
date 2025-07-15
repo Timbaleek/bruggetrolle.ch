@@ -25,9 +25,9 @@
 </script>
 
 <BaseWrapper>
-    <h1 class="title">Kontakt</h1>
-    <p class="subtitle">
-        Hier kannst Du uns kontaktieren, wenn Du Fragen hast oder mehr über uns
+    <h1 class="title is-1">Kontakt</h1>
+    <p class="subtitle is-3">
+        Hier kannst Du uns kontaktieren, wenn du Fragen hast oder mehr über uns
         erfahren möchtest.
     </p>
     <div class="content">

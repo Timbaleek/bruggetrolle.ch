@@ -53,7 +53,7 @@
 
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="cover-text is-size-2 has-text-white">
+                <h1 class="cover-text is-size-1 has-text-white">
                     Wir sind BRUGGETROLLE
                 </h1>
             </div>
@@ -63,14 +63,14 @@
 
 <div class="section pb-0">
     <div class="container">
-        <h1 class="title">News</h1>
+        <h1 class="title is-3">News</h1>
         <ArticleList items={firstItem}></ArticleList>
     </div>
 </div>
-<div class="section ptb-0">
+<div class="section py-0">
     <div class="container">
-        <h1 class="title">Mailingliste</h1>
-        <p class="subtitle">
+        <h1 class="title is-3">Mailingliste</h1>
+        <p class="subtitle is-5">
             Hier kannst du dich für unsere Mailingliste eintragen, um über
             Aufführungen und Events informiert zu werden.
         </p>

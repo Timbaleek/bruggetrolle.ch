@@ -5,14 +5,15 @@
 </script>
 
 <BaseWrapper>
-    <h1 class="title">Gönner und Sponsoren</h1>
+    <h1 class="title is-1">Gönner und Sponsoren</h1>
+    <h2 class="subtitle is-3">
+        Tausend Dank an unsere Gönner und Sponsoren, Sie erlauben es uns
+        Vorführungen aufzuführen, Probeorte zu mieten und Requisiten zu
+        besorgen.
+    </h2>
 
     <div class="content">
-        <p class="block">
-            Tausend Dank an unsere Gönner und Sponsoren, Sie erlauben es uns
-            Vorführungen aufzuführen, Probeorte zu mieten und Requisiten zu
-            besorgen.
-        </p>
+        <p class="block"></p>
 
         <h2 class="subtitle">Gönner werden</h2>
         <p class="block">
