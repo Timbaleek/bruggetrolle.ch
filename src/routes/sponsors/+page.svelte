@@ -23,7 +23,7 @@
             stellen. Willst du uns auch unter die Arme greifen? Dann schick uns
             das <DownloadLink
                 name="Formular"
-                link="$lib/assets/sponsorsgönnerformular.pdf"
+                link="src/lib/assets/sponsors/FormularGönnerBruggetrolle.pdf"
             /> ausgefüllt an <MailToVorstand />, wir freuen uns über jeden
             Beitrag! Als Gönner bezahlen sie regelmässig einen Betrag ein, um
             uns zu unterstützen. Sie werden unter Gönnern aufgelistet und

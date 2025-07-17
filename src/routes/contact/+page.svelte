@@ -38,7 +38,7 @@
                 <i class="fas fa-camera-retro"></i>
             </span>
             <span>
-                <a href="TODO instagram">Instagram</a>
+                <a href="https://www.instagram.com/bruggetrolle/">Instagram</a>
             </span>
         </span>.
     </div>
