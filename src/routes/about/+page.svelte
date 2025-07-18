@@ -52,7 +52,8 @@
     <h1 class="title is-1">Über uns</h1>
 
     <p class="subtitle is-3">
-        Hier erfährst du über den Verein und die aktuellen Mitglieder.
+        Hier erfährst du mehr über den Verein und die aktuellen
+        Vorstandsmitglieder.
     </p>
 </BaseWrapper>
 

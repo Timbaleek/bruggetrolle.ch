@@ -3,7 +3,7 @@
     import Titlebar from "$lib/Titlebar.svelte";
     import HighlightArticle from "$lib/HighlightArticle.svelte";
 
-    import IbfddCast from "$lib/assets/title/IbfddCast.jpg";
+    import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
     import Einladung from "$lib/assets/title/einladungsflyer.jpg";
     import ArticleList from "../lib/ArticleList.svelte";
@@ -21,10 +21,10 @@
         {
             title: "Vereinsgründung",
             subtitle: "Der Verein ist gegründet!",
-            date: "17. März 2025",
+            date: "5. April 2025",
             description:
                 "Wir haben uns als Theaterverein Bruggetrolle gegründet und freuen uns auf eine spannende Zeit mit vielen tollen Produktionen.",
-            image: IbfddCast,
+            image: IbfddCast2,
         },
         {
             title: "Ich bin für dich da.",
@@ -48,7 +48,7 @@
         </div>
 
         <figure class="image is-fullwidth">
-            <img src={IbfddCast} alt="Cover" />
+            <img src={IbfddCast2} alt="Cover" />
         </figure>
 
         <div class="hero-body">
