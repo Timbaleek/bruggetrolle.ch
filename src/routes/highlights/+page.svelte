@@ -24,14 +24,6 @@
                 "Aufgrund der Corona-Pandemie wurde die Aufführung abgesagt.",
             image: "",
         },
-        {
-            title: "Ich bin für dich da.",
-            subtitle: "Die erste Produktion des Vereins.",
-            date: "15.-23. Juni 2024",
-            description:
-                "Unsere erste Produktion als Verein. Wir haben uns sehr gefreut, wieder auf der Bühne zu stehen. Aufgeführt wurde 'Ich bin für dich da.', ein selbstgeschriebenes Stück, das die Beziehung zwischen Geschwistern und ihren Schutzengeln thematisiert.",
-            image: Ibfdd_plakat,
-        },
     ];
 </script>
 

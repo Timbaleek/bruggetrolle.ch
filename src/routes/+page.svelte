@@ -5,7 +5,7 @@
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
-    import Einladung from "$lib/assets/title/einladungsflyer.jpg";
+    import Einladung from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
 

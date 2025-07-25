@@ -8,6 +8,7 @@
     import laraPB from "$lib/assets/about/laraPB.jpeg";
     import melaniePB from "$lib/assets/about/melaniePB.jpeg";
     import timPB from "$lib/assets/about/timPB.jpeg";
+    import jessicaPB from "$lib/assets/about/jessicaPB.jpeg";
     import kallePB from "$lib/assets/about/kallePB.jpeg";
 
     let people = [
@@ -16,7 +17,7 @@
             subtitle: "Präsidentin, Organisation",
             image: laraPB,
             description:
-                "Theater ist mein Ding, Pink mein Element und ich werde bestimmt mal an einem Lachflash sterben. Ich bin die, die Chaos tanzt, Glitzer streut, nie leise denkt und trotzdem nie das Ziel aus den Augen verliert - höchstens mal das Skript.",
+                "Theater ist für mich nicht nur ein Hobby, sondern mein Lebenselixier - es hat mich zu der Person gemacht, die ich heute bin: kreativ, pink und immer ein bisschen over the top. Ich denke laut, lache noch lauter und werde wahrscheinlich mal an einem Lachflash sterben. Ich bin die, die im Chaos Pirouetten dreht, Glitzer streut und trotzdem zwischen Requisitenwirrwarr und Bühnenmagie nie den Überblick verliert - höchstens mal das Skript.",
             date: "Seit März 2025",
         },
         {
@@ -24,7 +25,7 @@
             subtitle: "Finanzielles, Tickets",
             image: melaniePB,
             description:
-                "Ich kann besser Text auswendig lernen als formulieren und ich spreche am liebsten mit anderen, wenn es in einem Skrip steht. Ausserdem ist mein Lieblingsdino der Ankylosaurier, nur so nebenbei.",
+                "Ich kann besser Text auswendig lernen als formulieren und ich spreche am liebsten mit anderen, wenn es in einem Skript steht. Ausserdem ist mein Lieblingsdino der Ankylosaurier, nur so nebenbei.",
             date: "Seit März 2025",
         },
 
@@ -35,6 +36,14 @@
             description:
                 "Ich spiele seit meiner Kindheit Theater und liebe es, Geschichten zu erfinden. Wenn ich auf der Bühne stehe, fühle ich mich, als hätte ich das Leben meines Charakters erlebt.",
             date: "Seit März 2025",
+        },
+        {
+            title: "Jessica Engel",
+            subtitle: "Aktuarin, Bühnenbild, Kostüme",
+            image: jessicaPB,
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            date: "Seit Juli 2025",
         },
 
         {

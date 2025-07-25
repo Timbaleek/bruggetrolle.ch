@@ -1,27 +1,9 @@
 <script lang="ts">
     import BaseWrapper from "$lib/BaseWrapper.svelte";
+    import MailingListForm from "$lib/MailingListForm.svelte";
     import MailToVorstand from "$lib/MailToVorstand.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
     import { expoIn } from "svelte/easing";
-
-    // function addToMailingList() {
-    //     console.log("Adding to mailing list:", firstname, lastname, email);
-    //     const inputs =
-    //         document.querySelectorAll<HTMLInputElement>(".mailinglist-input");
-    //     const names = Array.from(inputs)
-    //         .map((input) => input.value.trim())
-    //         .filter((name) => name.length > 0);
-
-    //     if (names.length <= 2) {
-    //         alert("Please enter all information.");
-    //         return;
-    //     }
-
-    //     const csvContent =
-    //         "data:text/csv;charset=utf-8," +
-    //         names.map((name) => `"${name}"`).join("\n");
-    //     const encodedUri = encodeURI(csvContent);
-    // }
 </script>
 
 <BaseWrapper>
@@ -32,7 +14,11 @@
     </p>
     <div class="content">
         Bei Anfragen, zögere nicht, uns eine E-Mail zu schreiben:
-        <MailToVorstand />. Oder schreib' uns auf
+        <MailToVorstand />.
+
+        <MailingListForm></MailingListForm>
+
+        Oder schreib' uns auf
         <span class="icon-text">
             <span class="icon has-text-link">
                 <i class="fas fa-camera-retro"></i>
@@ -40,7 +26,8 @@
             <span>
                 <a href="https://www.instagram.com/bruggetrolle/">Instagram</a>
             </span>
-        </span>.
+        </span>. TODO add instagram qr code
+        <img src="static/instagram-qr.png" alt="Instagram QR Code" />
     </div>
 
     <div class="content"></div>

@@ -8,9 +8,8 @@
 <BaseWrapper>
     <h1 class="title is-1">Gönner und Sponsoren</h1>
     <h2 class="subtitle is-3">
-        Tausend Dank an unsere Gönner und Sponsoren, Sie erlauben es uns
-        Vorführungen aufzuführen, Probeorte zu mieten und Requisiten zu
-        besorgen.
+        Gönner und Sponsoren erlauben es uns Vorführungen aufzuführen, Probeorte
+        zu mieten und Requisiten zu besorgen.
     </h2>
 
     <div class="content">
@@ -32,9 +31,7 @@
         </p>
 
         <div class="block">
-            <h2 class="subtitle is-3">
-                Hier findest du alle Gönner und Sponsoren der Bruggetrolle
-            </h2>
+            <h2 class="subtitle is-3">Sponsoren</h2>
             <p class="block">
                 Willst du stattdessen im Namen deines Unternehmens unsere
                 Leidenschaft unterstützen und so die Kultur in der Region
