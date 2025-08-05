@@ -5,7 +5,7 @@
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
-    import Einladung from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
+    import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
 
@@ -16,7 +16,7 @@
             date: "Juli 2025",
             description:
                 "Wir sind der neu gegründete Theaterverein Bruggetrolle - ein junges, motiviertes Team mit einem Altersdurchschnitt von etwa 25 Jahren. Bei uns sind alle ab 18 Jahren herzlich willkommen, egal ob mit Erfahrung oder zum ersten Mal auf der Bühne. Wir freuen uns auf neue Mitglieder, die mit uns proben, lachen und gemeinsam auf der Bühne stehen wollen. Haben wir dein Interesse geweckt? Dann melde dich an und komm ganz unverbindlich zu einer unserer Schnupperproben: Zur Anmeldung oder bei Fragen, melde dich bei: vorstand@bruggetrolle.ch",
-            image: Einladung,
+            image: Einladung1,
         },
         {
             title: "Vereinsgründung",
