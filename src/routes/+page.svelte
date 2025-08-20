@@ -6,10 +6,19 @@
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
+    import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
 
     const items = [
+        {
+            title: "Erste Schnupperprobe",
+            subtitle: "Kennenlernen und Improspiele",
+            date: "15. August 2025",
+            description:
+                "Auf der Bühne in der Turnhalle in Lauffrohr (Brugg) fand am Freitagabend unsere erste Schnupperprobe statt. Wir durften drei neue Mitglieder, Leon, Kevin und Jara begrüssen. Lara hat ein Körper und Spracheinwärmen geleitet, Tim und Melanie die darauffolgenden Improspiele - darunter 'grosses Kino', 'Geschichte von drei Leichen' und ein Text, der in verschiedenen Emotionen interpretiert werden konnte. Es wurden schöne Geschichten gesponnen, gespielt und gelacht. Wir laden dich gerne für unsere nächste Schnupperprobe ein. Komm doch vorbei, lerne uns kennen und mach bei den Improspielen mit. Wir freuen uns auf dich!",
+            image: ErsteProbe,
+        },
         {
             title: "Neue Mitglieder",
             subtitle: "Wir suchen neue Mitglieder!",
