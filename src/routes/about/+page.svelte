@@ -34,7 +34,7 @@
             subtitle: "Kreatives, Design, Programmierung",
             image: timPB,
             description:
-                "Ich spiele seit meiner Kindheit Theater und liebe es, Geschichten zu erfinden. Wenn ich auf der Bühne stehe, fühle ich mich, als hätte ich das Leben meines Charakters erlebt.",
+                "Ich spiele seit meiner Kindheit Theater und liebe es, Geschichten zu erfinden. Wenn ich auf der Bühne stehe, fühle ich mich, als hätte ich das Leben meines Charakters erlebt. Ich mag es, auf der Bühne auf das Publikum zu reagieren und Interaktion zu schaffen.",
             date: "Seit März 2025",
         },
         {
@@ -42,7 +42,7 @@
             subtitle: "Aktuarin, Bühnenbild, Kostüme",
             image: jessicaPB,
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Ich bin schon lange vom Theater begeistert und liebe es, Geschichten auf der Bühne zum Leben zu erwecken. Ich habe schon für meine Maturaarbeit ein Theaterstück geschrieben und verwirklicht, mich mit der Technik, dem Bühnenbild und den Kostümen beschäftigt und bin selbst auf der Bühne gestanden. ",
             date: "Seit Juli 2025",
         },
 
