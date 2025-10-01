@@ -5,13 +5,16 @@
     import ArticleList from "$lib/ArticleList.svelte";
 
     //import all images from $lib/assets/about
-    import laraPB from "$lib/assets/about/laraPB.jpeg";
-    import melaniePB from "$lib/assets/about/melaniePB.jpeg";
-    import timPB from "$lib/assets/about/timPB.jpeg";
-    import jessicaPB from "$lib/assets/about/jessicaPB.jpeg";
-    import kallePB from "$lib/assets/about/kallePB.jpeg";
+    import laraPB from "$lib/assets/about/laraPB.jpg";
+    import melaniePB from "$lib/assets/about/melaniePB2.jpg";
+    import timPB from "$lib/assets/about/timPB.jpg";
+    import jessicaPB from "$lib/assets/about/jessicaPB2.jpg";
+    import kallePB from "$lib/assets/about/kallePB.jpg";
+    import jaraPB from "$lib/assets/about/jaraPB.jpg";
+    import kevinPB from "$lib/assets/about/kevinPB.jpg";
+    import ProfileList from "$lib/ProfileList.svelte";
 
-    let people = [
+    let vorstand = [
         {
             title: "Lara Eggert",
             subtitle: "Präsidentin, Organisation",
@@ -53,6 +56,33 @@
             description:
                 "Ich stand zwar auch schon auf der Bühne, entfalte mich aber lieber hinter den Kulissen. Es fasziniert mich, das letzte Bisschen aus der Technik herauszukitzeln und die Schauspieler in das perfekte Licht zu stellen.",
             date: "Seit März 2025",
+        },
+    ];
+
+    let schauspielerFS2026 = [
+        {
+            title: "Tim Appel",
+            image: timPB,
+        },
+        {
+            title: "Melanie Dobler",
+            image: melaniePB,
+        },
+        {
+            title: "Lara Eggert",
+            image: laraPB,
+        },
+        {
+            title: "Jessica Engel",
+            image: jessicaPB,
+        },
+        {
+            title: "Kevin Sales",
+            image: kevinPB,
+        },
+        {
+            title: "Jara Umbricht",
+            image: jaraPB,
         },
     ];
 </script>
@@ -98,7 +128,12 @@
     <div class="container">
         <h2 class="title is-3">Vorstandsmitglieder</h2>
 
-        <ArticleList items={people}></ArticleList>
+        <ArticleList items={vorstand}></ArticleList>
+    </div>
+    <div class="container">
+        <h2 class="title is-3">Schauspieler Frühling 2026</h2>
+
+        <ProfileList items={schauspielerFS2026}></ProfileList>
     </div>
 </div>
 

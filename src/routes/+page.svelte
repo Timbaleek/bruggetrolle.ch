@@ -6,11 +6,21 @@
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
+    import Ensemble2026 from "$lib/assets/title/ensemble2026.jpg";
     import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
 
     const items = [
+        {
+            title: "Unser Ensemble steht fest!",
+            subtitle:
+                "Diese 6 Schauspieler*innen werden bei der Produktion im Frühling 2026 dabei sein.",
+            date: "23. September 2025",
+            description:
+                "Nach einigen Schnupperproben, wo wir auch einigie neue Mitglieder begrüssen durften, stehen nun die Schauspieler*innen für unsere nächste Produktion fest. Wir haben schon angefangen, das Stück zu schreiben und erarbeiten Rollen und ihre Geheimnisse. Nach den Herbstferien geht es weiter mit Proben, die immernoch ein Stück Impro beinhalten werden, sich aber immer mehr der Ausarbeitung des Stücks widmen werden. Wenn Du uns erst jetzt entdeckt hast, kannst Du immernoch ungebunden vorbeikommen.",
+            image: Ensemble2026,
+        },
         {
             title: "Erste Schnupperprobe",
             subtitle: "Kennenlernen und Improspiele",
