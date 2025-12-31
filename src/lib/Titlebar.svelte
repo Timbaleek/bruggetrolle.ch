@@ -26,6 +26,9 @@
 
     <div id="mainNavbar" class="navbar-menu">
         <div class="navbar-start">
+            <a class="navbar-item has-text-light" href="/current">
+                Aktuelle Produktion
+            </a>
             <a class="navbar-item has-text-light" href="/about"> Über uns </a>
             <a class="navbar-item has-text-light" href="/highlights">
                 Highlights
