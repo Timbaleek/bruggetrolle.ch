@@ -5,6 +5,7 @@
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
+    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat13.jpg";
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
     import Ensemble2026 from "$lib/assets/title/ensemble2026.jpg";
     import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
@@ -12,6 +13,17 @@
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
 
     const items = [
+        {
+            title: "Unsere aktuelle Produktion: Keiner von uns.",
+            subtitle:
+                "Das Stück wird am 21., 22., 28. und 29. März 2026 in der Turnhalle Au in Lauffohr aufgeführt.",
+            date: "31. Dezember 2025",
+            description:
+                "Unsere aktuelle Produktion ist 'Keiner von uns', ein selbstgeschriebenes Theaterstück, das von den geheimen Verstrickungen in einer Kleinstadt handelt und wie diese Geheimnisse aufgedeckt werden, als eine Fremde ins Dorf kommt.",
+            image: Kvu_plakat,
+            buttonText: "Hier Tickets reservieren",
+            buttonHref: "https://eventfrog.ch/de/p/keiner-von-uns-theater/",
+        },
         {
             title: "Unser Ensemble steht fest!",
             subtitle:

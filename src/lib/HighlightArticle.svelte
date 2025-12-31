@@ -5,6 +5,8 @@
         date = "",
         description = "",
         image = "",
+        buttonText = "",
+        buttonHref = "",
     } = $props();
 </script>
 
@@ -37,6 +39,20 @@
 
             <h3 class="subtitle is-6">{subtitle}</h3>
             <p>{description}</p>
+            {#if buttonText && buttonHref}
+                <div class="field">
+                    <div class="control">
+                        <a
+                            class="button is-primary is-flex-mobile"
+                            href={buttonHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <strong>{buttonText}</strong>
+                        </a>
+                    </div>
+                </div>
+            {/if}
         </div>
         <div class="media-right"></div>
     </div>

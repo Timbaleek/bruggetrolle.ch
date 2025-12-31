@@ -7,6 +7,8 @@
         date: string;
         description: string;
         image: string;
+        buttonText?: string;
+        buttonHref?: string;
     }[];
 </script>
 
@@ -18,6 +20,8 @@
             subtitle={item.subtitle}
             date={item.date}
             description={item.description}
+            buttonText={item.buttonText}
+            buttonHref={item.buttonHref}
         ></HighlightArticle>
     {/each}
 </div>

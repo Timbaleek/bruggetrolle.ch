@@ -5,7 +5,9 @@
 </script>
 
 <BaseWrapper>
-    <h1 class="title is-1">Keiner von uns.</h1>
+    <h1 class="title is-1">
+        <span class="has-text-red">K</span>einer von uns.
+    </h1>
 
     <p class="subtitle is-3">Unsere aktuelle Produktion.</p>
 
@@ -55,4 +57,7 @@
 >
 
 <style>
+    .has-text-red {
+        color: #f63d08;
+    }
 </style>
