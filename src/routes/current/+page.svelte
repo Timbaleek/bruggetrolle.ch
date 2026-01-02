@@ -1,6 +1,5 @@
 <script lang="ts">
-    import Kvu_blank from "$lib/assets/current/KeinerVonUns_blank.jpg";
-    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat13.jpg";
+    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat18.jpg";
     import BaseWrapper from "$lib/BaseWrapper.svelte";
 </script>
 
@@ -38,19 +37,32 @@
                 </div>
             </div>
             <p>
-                Unsere aktuelle Produktion ist <strong>Keiner von uns</strong>,
-                ein selbstgeschriebenes Theaterstück, das von den geheimen
-                Verstrickungen in einer Kleinstadt handelt und wie diese
-                Geheimnisse aufgedeckt werden, als eine Fremde ins Dorf kommt.
+                Unsere aktuelle Produktion ist unser selbstgeschriebenes
+                Theaterstück <strong
+                    ><span class="has-text-red">K</span>einer von uns</strong
+                >
+                Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät
+                das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt
+                Konflikte an die Oberfläche und stellt Beziehungen auf die Probe.
+                Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten
+                und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht,
+                Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse,
+                die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines
+                Geschehens, das niemand mehr stoppen kann.
             </p>
-            <br />
+            <p>
+                Während der Pause haben wir einen Kuchen- und Getränkeverkauf.
+                Wir finanzieren unser Theater mit Kollekten und wir freuen uns
+                über Ihren Beitrag nach dem Theater.
+                <br />
+            </p>
             <p>
                 Die Aufführungen finden am <strong
                     >21., 22., 28., 29. März 2026</strong
-                > in der Turnhalle Au in Lauffohr nahe Brugg statt. Der Eintrit ist
-                frei, wir freuen uns aber über Spenden in unserer Kollekte, um weitere
-                Produktionen zu ermöglichen. Wir freuen darauf, euch bei unseren
-                Vorstellungen begrüßen zu dürfen!
+                > in der Turnhalle Au in Lauffohr nahe Brugg statt. Der Eintritt
+                ist frei, wir freuen uns aber über Spenden in unserer Kollekte, um
+                weitere Produktionen zu ermöglichen. Wir freuen uns darauf, euch
+                bei unseren Vorstellungen begrüßen zu dürfen!
             </p>
         </div>
     </div></BaseWrapper

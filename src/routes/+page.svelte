@@ -5,7 +5,7 @@
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
 
-    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat13.jpg";
+    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat18.jpg";
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
     import Ensemble2026 from "$lib/assets/title/ensemble2026.jpg";
     import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
@@ -19,7 +19,7 @@
                 "Das Stück wird am 21., 22., 28. und 29. März 2026 in der Turnhalle Au in Lauffohr aufgeführt.",
             date: "31. Dezember 2025",
             description:
-                "Unsere aktuelle Produktion ist 'Keiner von uns', ein selbstgeschriebenes Theaterstück, das von den geheimen Verstrickungen in einer Kleinstadt handelt und wie diese Geheimnisse aufgedeckt werden, als eine Fremde ins Dorf kommt.",
+                "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
             image: Kvu_plakat,
             buttonText: "Hier Tickets reservieren",
             buttonHref:
