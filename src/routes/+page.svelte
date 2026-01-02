@@ -22,7 +22,8 @@
                 "Unsere aktuelle Produktion ist 'Keiner von uns', ein selbstgeschriebenes Theaterstück, das von den geheimen Verstrickungen in einer Kleinstadt handelt und wie diese Geheimnisse aufgedeckt werden, als eine Fremde ins Dorf kommt.",
             image: Kvu_plakat,
             buttonText: "Hier Tickets reservieren",
-            buttonHref: "https://eventfrog.ch/de/p/keiner-von-uns-theater/",
+            buttonHref:
+                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
         },
         {
             title: "Unser Ensemble steht fest!",

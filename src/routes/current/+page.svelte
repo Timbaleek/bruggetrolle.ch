@@ -14,7 +14,7 @@
     <div class="columns is-variable is-8">
         <div class="column pb-0">
             <a
-                href="https://eventfrog.ch/de/p/keiner-von-uns-theater-der-kulturwerkstatt-brugg-28787"
+                href="https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@
                 <div class="control">
                     <a
                         class="button is-primary is-flex-mobile"
-                        href="https://eventfrog.ch/de/p/keiner-von-uns-theater-der-kulturwerkstatt-brugg-28787"
+                        href="https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
