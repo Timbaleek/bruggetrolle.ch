@@ -16,7 +16,7 @@
         {
             title: "Unsere aktuelle Produktion: Keiner von uns.",
             subtitle:
-                "Das Stück wird am 21., 22., 28. und 29. März 2026 in der Turnhalle Au in Lauffohr aufgeführt.",
+                "Das Stück wird am 21. und 28. um 18:30 und am 22. und 29. März 2026 um 16:00 in der Turnhalle Au in Lauffohr aufgeführt.",
             date: "31. Dezember 2025",
             description:
                 "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",

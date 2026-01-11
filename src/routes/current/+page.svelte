@@ -40,16 +40,21 @@
                 Unsere aktuelle Produktion ist unser selbstgeschriebenes
                 Theaterstück <strong
                     ><span class="has-text-red">K</span>einer von uns</strong
-                >
-                Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät
-                das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt
-                Konflikte an die Oberfläche und stellt Beziehungen auf die Probe.
-                Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten
-                und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht,
-                Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse,
-                die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines
-                Geschehens, das niemand mehr stoppen kann.
+                >.
             </p>
+            <br />
+            <p>
+                Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich
+                gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen
+                aus, bringt Konflikte an die Oberfläche und stellt Beziehungen
+                auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu
+                Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während
+                die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt
+                sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen
+                waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das
+                niemand mehr stoppen kann.
+            </p>
+            <br />
             <p>
                 Während der Pause haben wir einen Kuchen- und Getränkeverkauf.
                 Wir finanzieren unser Theater mit Kollekten und wir freuen uns
@@ -59,10 +64,13 @@
             <p>
                 Die Aufführungen finden am <strong
                     >21., 22., 28., 29. März 2026</strong
-                > in der Turnhalle Au in Lauffohr nahe Brugg statt. Der Eintritt
-                ist frei, wir freuen uns aber über Spenden in unserer Kollekte, um
-                weitere Produktionen zu ermöglichen. Wir freuen uns darauf, euch
-                bei unseren Vorstellungen begrüßen zu dürfen!
+                >
+                in der Turnhalle Au in Lauffohr nahe Brugg statt. Samstags beginnen
+                wir um <strong>18:30 Uhr</strong>, sonntags um
+                <strong>16:00 Uhr</strong>. Der Eintritt ist frei, wir bedanken
+                uns aber für Spenden in unserer Kollekte, um weitere
+                Produktionen zu ermöglichen. Wir freuen uns darauf, euch bei
+                unseren Vorstellungen begrüßen zu dürfen!
             </p>
         </div>
     </div></BaseWrapper
