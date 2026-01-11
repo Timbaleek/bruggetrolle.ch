@@ -3,6 +3,7 @@
     import DownloadLink from "$lib/DownloadLink.svelte";
     import MailToVorstand from "$lib/MailToVorstand.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
+    import gönnerformular from "$lib/assets/sponsors/gönnerformular.pdf";
 </script>
 
 <BaseWrapper>
@@ -20,14 +21,12 @@
             Herzlichen Dank an unsere Gönner! Dank eurer Unterstützung können
             wir unser Hobby ausleben und coole Produktionen auf die Beine
             stellen. Willst du uns auch unter die Arme greifen? Dann schick uns
-            das <DownloadLink
-                name="Formular"
-                link="static/FormularGönnerBruggetrolle.pdf"
-            /> ausgefüllt an <MailToVorstand />, wir freuen uns über jeden
-            Beitrag! Als Gönner bezahlen sie regelmässig einen Betrag ein, um
-            uns zu unterstützen. Sie werden unter Gönnern aufgelistet und
-            erhalten, wenn Sie es wünschen, Informationen zu kommenden
-            Aufführungen und Events des Vereins.
+            das <DownloadLink name="Formular" link={gönnerformular} /> ausgefüllt
+            an <MailToVorstand />, wir freuen uns über jeden Beitrag! Als Gönner
+            bezahlen sie regelmässig einen Betrag ein, um uns zu unterstützen.
+            Sie werden unter Gönnern aufgelistet und erhalten, wenn Sie es
+            wünschen, Informationen zu kommenden Aufführungen und Events des
+            Vereins.
         </p>
 
         <div class="block">
