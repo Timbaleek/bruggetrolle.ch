@@ -3,6 +3,7 @@
     import MailingListForm from "$lib/MailingListForm.svelte";
     import MailToVorstand from "$lib/MailToVorstand.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
+    import InstaQR from "$lib/assets/contact/bruggetrolle_qr.png";
     import { expoIn } from "svelte/easing";
 </script>
 
@@ -26,8 +27,8 @@
             <span>
                 <a href="https://www.instagram.com/bruggetrolle/">Instagram</a>
             </span>
-        </span>. TODO add instagram qr code
-        <img src="static/instagram-qr.png" alt="Instagram QR Code" />
+        </span>.
+        <img src={InstaQR} alt="Instagram QR Code" />
     </div>
 
     <div class="content"></div>

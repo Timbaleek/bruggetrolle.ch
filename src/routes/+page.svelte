@@ -4,6 +4,7 @@
     import HighlightArticle from "$lib/HighlightArticle.svelte";
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
+    import KvUCast from "$lib/assets/title/KvUCast.jpg";
 
     import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat18.jpg";
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
@@ -11,6 +12,8 @@
     import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
+
+    let heroPhoto = KvUCast;
 
     const items = [
         {
@@ -21,6 +24,18 @@
             description:
                 "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
             image: Kvu_plakat,
+            buttonText: "Hier Tickets reservieren",
+            buttonHref:
+                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
+        },
+        {
+            title: "Das erste Auffpührungswochenende von (K)einer von uns ist vorbei!",
+            subtitle:
+                "Ihr habt dieses Wochenende noch mal die Chance, das Stück zu sehen: Am Samstag, 28. März um 18:30 und am Sonntag, 29. März um 16:00 in der Turnhalle Au in Lauffohr.",
+            date: "22. März 2025",
+            description:
+                "Die ersten Aufführungen von (K)einer von uns waren ein voller Erfolg! Danke an alle, die dabei waren! Es gibt noch Plätze für die Aufführungen am 28. und 29. März, also kommt vorbei und bringt gerne Freunde und Familie mit. An unserer Bar gibt es leckere Getränke und Gebäck. Wir freuen uns auf euch!",
+            image: KvUCast,
             buttonText: "Hier Tickets reservieren",
             buttonHref:
                 "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
@@ -80,7 +95,7 @@
         </div>
 
         <figure class="image is-fullwidth">
-            <img src={IbfddCast2} alt="Cover" />
+            <img src={heroPhoto} alt="Gruppenfoto" />
         </figure>
 
         <div class="hero-body">
