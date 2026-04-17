@@ -12,10 +12,34 @@
     import ErsteProbe from "$lib/assets/title/ersteProbe.jpeg";
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
+    import Impro from "$lib/assets/title/impro.jpg";
 
     let heroPhoto = KvUCast;
 
     const items = [
+        {
+            title: "Neue Schnupperproben stehen an!",
+            subtitle:
+                "Am 22. und 29. Mai 2026 jeweils um 20:15 Uhr in der Turnhalle in Lauffohr finden unsere nächsten Schnupperproben statt.",
+            date: "18. April 2026",
+            description:
+                "Hat dich an unserer Aufführung die Theaterlust gepackt? Oder willst du schon länger mal auf der Bühne stehen? Möchtest du zusammen ein Stück erarbeiten? Oder unverbindlich mal reinschnuppern, um zu sehen, ob es dir gefällt? Dann komm doch zu unseren nächsten Schnupperproben am 22. und 29. Mai 2026 jeweils um 20:15 Uhr in der Turnhalle in Lauffohr vorbei! Wir werden Kennenlernspiele und Improtheater machen. Melde dich per E-Mail oder Instagram an. Wir freuen uns auf dich!",
+            image: Impro,
+            buttonText: "Kontaktieren für Anmeldung oder Fragen",
+            buttonHref: "https://www.bruggetrolle.ch/contact",
+        },
+        {
+            title: "Die Aufführungen von (K)einer von uns sind vorbei!",
+            subtitle:
+                "Bei 4 Aufführungen durften wir über 200 Zuschauer*innen begrüssen. Danke an alle, die dabei waren! ",
+            date: "29. März 2025",
+            description:
+                "Die Aufführungen von (K)einer von uns waren ein voller Erfolg! Es war schön, zusammen auf der Bühne zu stehen und so viele von euch im Publikum zu sehen. Die Aufführungen wurden aufgezeichnet und sogar live übertragen, woraus ein Film entstehen wird. Jetzt geht es nach einer kurzen Pausean die Planung der nächsten Produktion!",
+            image: KvUCast,
+            buttonText: "Hier Tickets reservieren",
+            buttonHref:
+                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
+        },
         {
             title: "Unsere aktuelle Produktion: Keiner von uns.",
             subtitle:
@@ -24,18 +48,6 @@
             description:
                 "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
             image: Kvu_plakat,
-            buttonText: "Hier Tickets reservieren",
-            buttonHref:
-                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
-        },
-        {
-            title: "Das erste Auffpührungswochenende von (K)einer von uns ist vorbei!",
-            subtitle:
-                "Ihr habt dieses Wochenende noch mal die Chance, das Stück zu sehen: Am Samstag, 28. März um 18:30 und am Sonntag, 29. März um 16:00 in der Turnhalle Au in Lauffohr.",
-            date: "22. März 2025",
-            description:
-                "Die ersten Aufführungen von (K)einer von uns waren ein voller Erfolg! Danke an alle, die dabei waren! Es gibt noch Plätze für die Aufführungen am 28. und 29. März, also kommt vorbei und bringt gerne Freunde und Familie mit. An unserer Bar gibt es leckere Getränke und Gebäck. Wir freuen uns auf euch!",
-            image: KvUCast,
             buttonText: "Hier Tickets reservieren",
             buttonHref:
                 "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",

@@ -20,3 +20,15 @@ $beige-lighter: #eff0eb;
 // Import the Google Font
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @import url("https://fonts.googleapis.com/css?family=Chau+Philomene+One:400,700");
+
+.qr-fixed {
+    width: min(8cm, 90vw);
+    height: min(8cm, 90vw);
+}
+
+.qr-fixed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* or cover depending on preference */
+}
