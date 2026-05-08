@@ -10,10 +10,13 @@
         buttonText?: string;
         buttonHref?: string;
     }[];
+    export let featured: boolean = false;
 </script>
 
-<div class="higlight-list">
-    {#each items as item}
+<div
+    class={featured ? "higlight-list" : "higlight-list container is-fluid px-5"}
+>
+    {#each items as item, i}
         <HighlightArticle
             image={item.image}
             title={item.title}
@@ -22,6 +25,7 @@
             description={item.description}
             buttonText={item.buttonText}
             buttonHref={item.buttonHref}
+            featured={featured && i === 0}
         ></HighlightArticle>
     {/each}
 </div>

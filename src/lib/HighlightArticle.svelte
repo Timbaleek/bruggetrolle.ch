@@ -7,10 +7,14 @@
         image = "",
         buttonText = "",
         buttonHref = "",
+        featured = false,
     } = $props();
 </script>
 
-<article class="media">
+<article
+    class={"media " +
+        (featured ? "box has-background-primary has-text-white mb-5" : "")}
+>
     <figure class="media-left">
         <div class="image">
             {#if image}
@@ -30,7 +34,11 @@
                 </div>
                 <div class="level-right">
                     <div class="level-item">
-                        <span class="subtitle is-6 has-text-right">
+                        <span
+                            class={featured
+                                ? "subtitle is-6 has-text-right has-text-white"
+                                : "subtitle is-6 has-text-right"}
+                        >
                             {date}
                         </span>
                     </div>
@@ -43,7 +51,9 @@
                 <div class="field">
                     <div class="control">
                         <a
-                            class="button is-primary is-flex-mobile"
+                            class={featured
+                                ? "button is-white is-flex-mobile"
+                                : "button is-primary is-flex-mobile"}
                             href={buttonHref}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -58,7 +68,9 @@
     </div>
 </article>
 
-<hr class="divider" />
+{#if !featured}
+    <hr class="divider" />
+{/if}
 
 <style lang="scss">
     @use "bulma/sass/utilities/mixins";

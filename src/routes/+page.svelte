@@ -14,6 +14,7 @@
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
     import Impro from "$lib/assets/title/impro.jpg";
     import IBB_Booster from "$lib/assets/title/IBB_1000.jpg";
+    import gv2026 from "$lib/assets/title/gv2026.jpg";
 
     let heroPhoto = KvUCast;
 
@@ -26,8 +27,17 @@
             description:
                 "Hat dich an unserer Aufführung die Theaterlust gepackt? Oder willst du schon länger mal auf der Bühne stehen? Möchtest du zusammen ein Stück erarbeiten? Oder unverbindlich mal reinschnuppern, um zu sehen, ob es dir gefällt? Dann komm doch zu unseren nächsten Schnupperproben am 22. und 29. Mai 2026 jeweils um 20:15 Uhr in der Turnhalle in Lauffohr vorbei! Wir werden Kennenlernspiele und Improtheater machen. Melde dich per E-Mail oder Instagram an. Wir freuen uns auf dich!",
             image: Impro,
-            buttonText: "Kontaktieren für Anmeldung oder Fragen",
+            buttonText: "Kontaktiere uns für Anmeldung oder Fragen!",
             buttonHref: "https://www.bruggetrolle.ch/contact",
+        },
+        {
+            title: "2. Generalversammlung",
+            subtitle:
+                "Rückblick auf ein erfolgreiches Jahr und Planung der nächsten Produktionen",
+            date: "8. Mai 2026",
+            description:
+                "An unserer zweiten Generalversammlung wurde auf das erfolgreiche Jahr zurückgeblickt, die Finanzen für das nächste Jahr besprochen und die nächsten Produktionen und Anschaffungen geplant. Jessica ist aus dem Vorstand zurückgetreten und wird von Kevin ersetzt, der sich nun um Social Media und Marketing kümmern wird. Es kommen in diesem Jahr zwei spannende Produktionen auf uns zu! Und es wird vielleicht erste T-Shirts für die Mitglieder geben. ",
+            image: gv2026,
         },
         {
             title: "IBB Booster Gewinn",
@@ -54,9 +64,6 @@
             description:
                 "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
             image: Kvu_plakat,
-            buttonText: "Hier Tickets reservieren",
-            buttonHref:
-                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
         },
         {
             title: "Unser Ensemble steht fest!",
@@ -129,21 +136,13 @@
 <div class="section pb-0">
     <div class="container">
         <h1 class="title is-3">News</h1>
-        <ArticleList items={firstItem}></ArticleList>
-    </div>
-</div>
-<div class="section py-0">
-    <div class="container">
-        <h1 class="title is-3">Mailingliste</h1>
-        <p class="subtitle is-5">
-            Hier kannst du dich für unsere Mailingliste eintragen, um über
-            Aufführungen und Events informiert zu werden.
-        </p>
 
-        <MailingListForm></MailingListForm>
-        <hr class="divider" />
+        <div class="">
+            <ArticleList items={firstItem} featured={true}></ArticleList>
+        </div>
     </div>
 </div>
+
 <div class="section pt-0">
     <div class="container">
         <ArticleList items={otherItems}></ArticleList>
