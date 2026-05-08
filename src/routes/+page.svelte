@@ -13,6 +13,7 @@
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
     import Impro from "$lib/assets/title/impro.jpg";
+    import IBB_Booster from "$lib/assets/title/IBB_1000.jpg";
 
     let heroPhoto = KvUCast;
 
@@ -29,6 +30,14 @@
             buttonHref: "https://www.bruggetrolle.ch/contact",
         },
         {
+            title: "IBB Booster Gewinn",
+            subtitle: "Die IBB unterstützt unseren Verein mit 1000 CHF!",
+            date: "29. April 2026",
+            description:
+                "Wir freuen uns sehr, durch unsere Teilnahme am IBB Booster Wettbewerb 1000 Franken gewonnen zu haben! Das gibt uns den Spielraum im Budget in unsere Technik zu investieren, Scheinwerfer zu kaufen und damit unsere Aufführungen aufleuchten zu lassen! Vielen Dank an die IBB für diese Unterstützung!",
+            image: IBB_Booster,
+        },
+        {
             title: "Die Aufführungen von (K)einer von uns sind vorbei!",
             subtitle:
                 "Bei 4 Aufführungen durften wir über 200 Zuschauer*innen begrüssen. Danke an alle, die dabei waren! ",
@@ -36,9 +45,6 @@
             description:
                 "Die Aufführungen von (K)einer von uns waren ein voller Erfolg! Es war schön, zusammen auf der Bühne zu stehen und so viele von euch im Publikum zu sehen. Die Aufführungen wurden aufgezeichnet und sogar live übertragen, woraus ein Film entstehen wird. Jetzt geht es nach einer kurzen Pausean die Planung der nächsten Produktion!",
             image: KvUCast,
-            buttonText: "Hier Tickets reservieren",
-            buttonHref:
-                "https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html",
         },
         {
             title: "Unsere aktuelle Produktion: Keiner von uns.",
