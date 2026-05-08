@@ -13,7 +13,7 @@
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
     import Impro from "$lib/assets/title/impro.jpg";
-    import IBB_Booster from "$lib/assets/title/IBB_1000.jpg";
+    import IBB_Booster from "$lib/assets/title/ibb_1000.jpg";
     import gv2026 from "$lib/assets/title/gv2026.jpg";
 
     let heroPhoto = KvUCast;
