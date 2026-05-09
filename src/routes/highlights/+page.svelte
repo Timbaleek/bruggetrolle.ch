@@ -3,7 +3,6 @@
 
     import BaseWrapper from "$lib/BaseWrapper.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
-    import { expoIn } from "svelte/easing";
 
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
     import Kvu_plakat from "$lib/assets/highlights/Kvu_plakat.jpg";
