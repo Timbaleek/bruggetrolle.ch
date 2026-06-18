@@ -4,7 +4,7 @@
     import MailToVorstand from "$lib/MailToVorstand.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
     import gönnerformular from "$lib/assets/sponsors/gönnerformular.pdf";
-    import statuten from "$lib/assets/sponsors/statutenBruggetrolle.pdf";
+    import statuten from "$lib/assets/sponsors/Statuten_Bruggetrolle_08_05_2026.pdf";
 </script>
 
 <BaseWrapper>

@@ -17,7 +17,7 @@
     let vorstand = [
         {
             title: "Lara Eggert",
-            subtitle: "Präsidentin, Organisation",
+            subtitle: "Präsidentin, Organisation, Kostüme",
             image: laraPB,
             description:
                 "Theater ist für mich nicht nur ein Hobby, sondern mein Lebenselixier - es hat mich zu der Person gemacht, die ich heute bin: kreativ, pink und immer ein bisschen over the top. Ich denke laut, lache noch lauter und werde wahrscheinlich mal an einem Lachflash sterben. Ich bin die, die im Chaos Pirouetten dreht, Glitzer streut und trotzdem zwischen Requisitenwirrwarr und Bühnenmagie nie den Überblick verliert - höchstens mal das Skript.",
@@ -40,23 +40,33 @@
                 "Ich spiele seit meiner Kindheit Theater und liebe es, Geschichten zu erfinden. Wenn ich auf der Bühne stehe, fühle ich mich, als hätte ich das Leben meines Charakters erlebt. Ich mag es, auf der Bühne auf das Publikum zu reagieren und Interaktion zu schaffen.",
             date: "Seit März 2025",
         },
+
         {
+            title: "Kevin Sales",
+            subtitle: "Kommunikation, Social Media",
+            image: kevinPB,
+            description:
+                "Kevin hat Theater studiert und in Schweizer Filmproduktionen mitgewirkt. Heute ist er in der Kommunikationsbranche tätig und kennt sich daher bestens mit Social Media aus. Dadurch erhoffen wir uns, mehr Menschen fürs Zuschauen oder Mitspielen in unseren Produktionen zu erreichen.",
+            date: "Seit Mai 2026",
+        },
+
+        {
+            title: "Kalle Laitinen",
+            subtitle: "Location, Technik, Bühnenbild",
+            image: kallePB,
+            description:
+                "Ich stand zwar auch schon auf der Bühne, entfalte mich aber lieber hinter den Kulissen. Es fasziniert mich, das letzte Bisschen aus der Technik herauszukitzeln und die Schauspieler in das perfekte Licht zu stellen.",
+            date: "Seit März 2025",
+        },
+
+        /*{
             title: "Jessica Engel",
             subtitle: "Aktuarin, Bühnenbild, Kostüme",
             image: jessicaPB,
             description:
                 "Ich bin schon lange vom Theater begeistert und liebe es, Geschichten auf der Bühne zum Leben zu erwecken. Ich habe schon für meine Maturaarbeit ein Theaterstück geschrieben und verwirklicht, mich mit der Technik, dem Bühnenbild und den Kostümen beschäftigt und bin selbst auf der Bühne gestanden. ",
             date: "Seit Juli 2025",
-        },
-
-        {
-            title: "Kalle Laitinen",
-            subtitle: "Location, Technik",
-            image: kallePB,
-            description:
-                "Ich stand zwar auch schon auf der Bühne, entfalte mich aber lieber hinter den Kulissen. Es fasziniert mich, das letzte Bisschen aus der Technik herauszukitzeln und die Schauspieler in das perfekte Licht zu stellen.",
-            date: "Seit März 2025",
-        },
+        },*/
     ];
 
     let schauspielerFS2026 = [
