@@ -15,13 +15,13 @@
     </p>
     <div class="content">
         <div class="columns is-variable is-8">
-            <div class="column">
+            <div class="column has-text-centered is-flex is-flex-direction-column is-align-items-center">
                 Bei Anfragen, zögere nicht, uns eine E-Mail zu schreiben:
                 <MailToVorstand />.
 
                 <!-- <MailingListForm></MailingListForm> -->
             </div>
-            <div class="column">
+            <div class="column has-text-centered is-flex is-flex-direction-column is-align-items-center">
                 Oder schreib' uns auf
                 <span class="icon-text">
                     <span class="icon has-text-link">
@@ -33,7 +33,7 @@
                         >
                     </span>
                 </span>.
-                <div class="mt-4 is-flex is-justify-content-left">
+                <div class="mt-4">
                     <figure class="qr-fixed">
                         <img src={InstaQR} alt="Instagram QR Code" />
                     </figure>
@@ -41,10 +41,10 @@
             </div>
         </div>
         <div>
-            Wir sind ein eingetragener Verein der Stadt Brugg: 
+            <p class="has-text-centered is-flex is-align-items-center">Wir sind ein eingetragener Verein der Stadt Brugg: </p>
             <div class="columns is-variable is-8">
-                <div class="column">
-                    <figure class="image is-128x128">
+                <div class="column has-text-centered is-flex is-flex-direction-column is-align-items-center">
+                    <figure class="image is-128x128  mb-3">
                         <a href="https://gemeinde-schweiz.ch/kanton-aargau/brugg/" 
                         target="_blank"
                         rel="noopener noreferrer">
@@ -52,8 +52,8 @@
                         </a>
                     </figure>
                 </div>
-                <div class="column">
-                    <figure class="image is-128x128">
+                <div class="column has-text-centered is-flex is-flex-direction-column is-align-items-center">
+                    <figure class="image is-128x128  mb-3">
                         <a href="https://www.brugg.ch/themen-a-z/vereine/details.html/33/association/123"
                         target="_blank"
                         rel="noopener noreferrer">
