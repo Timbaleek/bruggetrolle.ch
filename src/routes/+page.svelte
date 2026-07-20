@@ -16,6 +16,8 @@
     import IBB_Booster from "$lib/assets/title/ibb_1000.jpg";
     import gv2026 from "$lib/assets/title/gv2026.jpg";
 
+    import ZoomableImage from "$lib/ZoomableImage.svelte";
+
     let heroPhoto = KvUCast;
 
     const items = [
