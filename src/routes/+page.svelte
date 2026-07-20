@@ -120,7 +120,8 @@
         </div>
 
         <figure class="image is-fullwidth">
-            <img src={heroPhoto} alt="Gruppenfoto" />
+            <ZoomableImage image={heroPhoto} alt="Gruppenfoto" />
+            <!--<img src={heroPhoto} alt="Gruppenfoto" />!-->
         </figure>
 
         <div class="hero-body">
