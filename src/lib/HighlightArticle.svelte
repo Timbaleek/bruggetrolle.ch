@@ -87,6 +87,7 @@
     .image {
         width: 15rem;
     }
+
     @include mixins.until($breakpoint) {
         .media {
             flex-direction: column;
@@ -105,6 +106,10 @@
         }
         .highlight-image {
             max-height: 60vh;
+        }
+        
+        .button {
+            white-space: normal;
         }
     }
 </style>

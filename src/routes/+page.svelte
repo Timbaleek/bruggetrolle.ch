@@ -1,7 +1,5 @@
 <script lang="ts">
-    import MailingListForm from "$lib/MailingListForm.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
-    import HighlightArticle from "$lib/HighlightArticle.svelte";
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
     import KvUCast from "$lib/assets/title/KvUCast.jpg";
@@ -16,7 +14,6 @@
     import IBB_Booster from "$lib/assets/title/ibb_1000.jpg";
     import gv2026 from "$lib/assets/title/gv2026.jpg";
 
-    import ZoomableImage from "$lib/ZoomableImage.svelte";
 
     let heroPhoto = KvUCast;
 
@@ -122,8 +119,7 @@
         </div>
 
         <figure class="image is-fullwidth">
-            <ZoomableImage image={heroPhoto} alt="Gruppenfoto" />
-            <!--<img src={heroPhoto} alt="Gruppenfoto" />!-->
+            <img src={heroPhoto} alt="Gruppenfoto" />
         </figure>
 
         <div class="hero-body">
