@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import MailingListForm from "$lib/MailingListForm.svelte";
     import Titlebar from "$lib/Titlebar.svelte";
     import HighlightArticle from "$lib/HighlightArticle.svelte";

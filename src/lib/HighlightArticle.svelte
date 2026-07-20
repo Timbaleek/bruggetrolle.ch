@@ -1,5 +1,5 @@
 <script lang="ts">
-    //import ZoomableImage from "$lib/ZoomableImage.svelte";
+    import ZoomableImage from "$lib/ZoomableImage.svelte";
 
     let {
         title,
@@ -20,8 +20,8 @@
     <figure class="media-left">
         <div class="image">
             {#if image}
-                <!--<ZoomableImage image={image} alt="Contact poster" />!-->
-                <img src={image} alt="Placeholder" class="highlight-image" />
+                <ZoomableImage image={image} alt={title} />
+                <!--<img src={image} alt="Placeholder" class="highlight-image" />!-->
             {:else}
                 <div class=""></div>
             {/if}
