@@ -1,4 +1,6 @@
 <script lang="ts">
+    import ZoomableImage from "$lib/ZoomableImage.svelte";
+
     let {
         title,
         subtitle = "",
@@ -18,7 +20,8 @@
     <figure class="media-left">
         <div class="image">
             {#if image}
-                <img src={image} alt="Placeholder" class="highlight-image" />
+                <ZoomableImage image={image} alt={title} />
+                <!--<img src={image} alt="Placeholder" class="highlight-image" />!-->
             {:else}
                 <div class=""></div>
             {/if}
@@ -84,6 +87,7 @@
     .image {
         width: 15rem;
     }
+
     @include mixins.until($breakpoint) {
         .media {
             flex-direction: column;
@@ -102,6 +106,10 @@
         }
         .highlight-image {
             max-height: 60vh;
+        }
+        
+        .button {
+            white-space: normal;
         }
     }
 </style>

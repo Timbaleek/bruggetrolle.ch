@@ -1,7 +1,5 @@
-<script>
-    import MailingListForm from "$lib/MailingListForm.svelte";
+<script lang="ts">
     import Titlebar from "$lib/Titlebar.svelte";
-    import HighlightArticle from "$lib/HighlightArticle.svelte";
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
     import KvUCast from "$lib/assets/title/KvUCast.jpg";
