@@ -5,6 +5,8 @@
 
     import IbfddCast2 from "$lib/assets/title/IbfddCast2.jpg";
     import KvUCast from "$lib/assets/title/KvUCast.jpg";
+    // @ts-ignore - vite-imagetools handles this query import at build time.
+    import heroPhoto from "$lib/assets/title/KvUCast.jpg?w=1600&format=webp";
 
     import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat18.jpg";
     import Einladung1 from "$lib/assets/title/einladungsflyerNeuKlein.jpg";
@@ -13,12 +15,20 @@
     import ArticleList from "../lib/ArticleList.svelte";
     import Ibfdd_plakat from "$lib/assets/highlights/Ibfdd_plakat.jpg";
     import Impro from "$lib/assets/title/impro.jpg";
+    import BruggetrolleLabor from "$lib/assets/title/bruggetrolle_labor_logo_3.png";
     import IBB_Booster from "$lib/assets/title/ibb_1000.jpg";
     import gv2026 from "$lib/assets/title/gv2026.jpg";
 
-    let heroPhoto = KvUCast;
-
     const items = [
+        {
+            title: "Wir stellen vor: Bruggetrolle Labor",
+            subtitle:
+                "Die kürzeren Produktionen des Vereins, die in einem kleineren Rahmen stattfinden.",
+            date: "4. September 2026",
+            description:
+                "Damit wir auch zwischen den grossen Produktionen im Frühling unsere Theaterlust ausleben können, haben wir das Bruggetrolle Labor ins Leben gerufen. Hier werden kürzere Produktionen in einem kleineren Rahmen oder experimenteller Natur stattfinden.",
+            image: BruggetrolleLabor,
+        },
         {
             title: "Neue Schnupperproben stehen an!",
             subtitle:

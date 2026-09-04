@@ -7,6 +7,9 @@
     //import all images from $lib/assets/about
     import laraPB from "$lib/assets/about/laraPB.jpg";
     import melaniePB from "$lib/assets/about/melaniePB2.jpg";
+    import miriamPB from "$lib/assets/about/miriamPB.jpg";
+    import murielPB from "$lib/assets/about/murielPB.jpg";
+    import vanessaPB from "$lib/assets/about/vanessaPB.jpg";
     import timPB from "$lib/assets/about/timPB.jpg";
     import jessicaPB from "$lib/assets/about/jessicaPB2.jpg";
     import kallePB from "$lib/assets/about/kallePB.jpg";
@@ -70,14 +73,14 @@
     ];
 
     let schauspielerFS2026 = [
-        {
+        /*{
             title: "Tim Appel",
             image: timPB,
         },
         {
             title: "Melanie Dobler",
             image: melaniePB,
-        },
+        },*/
         {
             title: "Lara Eggert",
             image: laraPB,
@@ -87,12 +90,24 @@
             image: jessicaPB,
         },
         {
+            title: "Vanessa Manz",
+            image: vanessaPB,
+        },
+        {
+            title: "Muriel Monhart",
+            image: murielPB,
+        },
+        {
             title: "Kevin Sales",
             image: kevinPB,
         },
         {
             title: "Jara Umbricht",
             image: jaraPB,
+        },
+        {
+            title: "Miriam Widmer",
+            image: miriamPB,
         },
     ];
 </script>
