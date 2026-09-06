@@ -156,7 +156,7 @@
         <ArticleList items={vorstand}></ArticleList>
     </div>
     <div class="container">
-        <h2 class="title is-3">Schauspieler Frühling 2026</h2>
+        <h2 class="title is-3">Schauspieler Herbst 2026</h2>
 
         <ProfileList items={schauspielerFS2026}></ProfileList>
     </div>

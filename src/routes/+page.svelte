@@ -146,7 +146,8 @@
         <h1 class="title is-3">News</h1>
 
         <div class="">
-            <ArticleList items={firstItem} featured={true}></ArticleList>
+            <ArticleList items={firstItem}></ArticleList>
+            <!-- <ArticleList items={firstItem} featured={true}></ArticleList> -->
         </div>
     </div>
 </div>
