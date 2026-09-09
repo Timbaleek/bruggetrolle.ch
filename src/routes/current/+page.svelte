@@ -1,24 +1,28 @@
 <script lang="ts">
-    import Kvu_plakat from "$lib/assets/current/KeinerVonUns_Plakat18.jpg";
+    import skala_plakat from "$lib/assets/current/skalaPlakat.jpg";
     import BaseWrapper from "$lib/BaseWrapper.svelte";
 </script>
 
 <BaseWrapper>
-    <h1 class="title is-1">
-        <span class="has-text-red">K</span>einer von uns.
-    </h1>
+    <h1 class="title is-1">Auf einer Skala von 1 bis 10</h1>
 
-    <p class="subtitle is-3">Unsere aktuelle Produktion.</p>
+    <p class="subtitle is-3">
+        Kurzszenen und Sketches basierend auf realen Erfahrungen von chonisch
+        kranken Patienten.
+    </p>
 
     <div class="columns is-variable is-8">
         <div class="column pb-0">
             <a
-                href="https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html"
+                href="https://eventfrog.ch/de/p/gruppen/auf-einer-skala-von-1-bis-10-7502727715746787486.html"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 <figure class="image is-3by4">
-                    <img src={Kvu_plakat} alt="Plakat von 'Keiner von uns'" />
+                    <img
+                        src={skala_plakat}
+                        alt="Plakat von 'Auf einer Skala von 1 bis 10'"
+                    />
                 </figure>
             </a>
         </div>
@@ -28,7 +32,7 @@
                 <div class="control">
                     <a
                         class="button is-primary is-flex-mobile"
-                        href="https://eventfrog.ch/de/p/gruppen/theaterauffuehrung-keiner-von-uns-7412872755480139929.html"
+                        href="https://eventfrog.ch/de/p/gruppen/auf-einer-skala-von-1-bis-10-7502727715746787486.html"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -38,39 +42,42 @@
             </div>
             <p>
                 Unsere aktuelle Produktion ist unser selbstgeschriebenes
-                Theaterstück <strong
-                    ><span class="has-text-red">K</span>einer von uns</strong
-                >.
+                Theaterstück <strong>Auf einer Skala von 1 bis 10</strong>.
             </p>
             <br />
             <p>
-                Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich
-                gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen
-                aus, bringt Konflikte an die Oberfläche und stellt Beziehungen
-                auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu
-                Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während
-                die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt
-                sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen
-                waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das
-                niemand mehr stoppen kann.
+                Ein selbstgeschriebenes Stück über das schweizer
+                Gesundheitssystem basierend auf echten Erfahrungen von chronisch
+                kranken Patienten, die alle nur wollen, dass ihnen geholfen
+                wird. In diversen Kurzszenen und Sketches wird auf humorvolle
+                Art und Weise gezeigt, was im Gesundheitssystem alles
+                schieflaufen kann. Von mühsamen Patienten über überfordertes
+                Pflegepersonal bis hin zu inkompetenten oder gar übergriffigen
+                Ärzten ist alles dabei. Mit diesem neuen Stück startet der
+                Theaterverein Brugetrolle diesen Herbst die neue
+                Produktionsreihe «Bruggetrolle Labor», welche experimentelle
+                Stücke von einer Dauer von circa einer Stunde auf die Bühne
+                bringen wird und ohne den massiven Aufwand einer vollen
+                Produktion unsere Theaterlust stillen kann.
             </p>
             <br />
             <p>
-                Während der Pause haben wir einen Kuchen- und Getränkeverkauf.
-                Wir finanzieren unser Theater mit Kollekten und wir freuen uns
-                über Ihren Beitrag nach dem Theater.
+                Der Eintritt ist frei, wir freuen uns aber über Spenden in
+                unserer Kollekte und Ihre Konsumation an unserer Bar, um
+                zukünftige Produktionen zu ermöglichen. Vor und nach der
+                Aufführung haben wir einen Kuchen- und Getränkeverkauf.
                 <br />
             </p>
             <p>
                 Die Aufführungen finden am <strong
-                    >21., 22., 28., 29. März 2026</strong
+                    >Samstag 7. November um 19 Uhr, Türöffnung 18:30</strong
                 >
-                in der Turnhalle Au in Lauffohr nahe Brugg statt. Samstags beginnen
-                wir um <strong>18:30 Uhr</strong>, sonntags um
-                <strong>16:00 Uhr</strong>. Der Eintritt ist frei, wir bedanken
-                uns aber für Spenden in unserer Kollekte, um weitere
-                Produktionen zu ermöglichen. Wir freuen uns darauf, euch bei
-                unseren Vorstellungen begrüßen zu dürfen!
+                und am
+                <strong>Sonntag 8. November um 17 Uhr, Türöffnung 16:30</strong>
+                in der Turnhalle Au in Lauffohr nahe Brugg statt.
+                <br />
+                Wir freuen uns darauf, euch bei unseren Vorstellungen begrüßen zu
+                dürfen!
             </p>
         </div>
     </div></BaseWrapper
