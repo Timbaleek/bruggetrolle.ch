@@ -12,7 +12,7 @@
         {
             title: "(K)einer von uns.",
             subtitle: "Die erste Produktion als Verein.",
-            date: "21.-29. März 2025",
+            date: "21.-29. März 2026",
             description:
                 "Diese Produktion ist unser selbstgeschriebenes Theaterstück '(K)einer von uns'. Eine Fremde kommt in ein scheinbar ruhiges Dorf - und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann. Die Aufführungen in der Turnhalle Au in Lauffohr wurden aufgezeichnet und sogar live übertragen, woraus ein Film entstehen wird. Bei 4 Aufführungen durften wir über 220 Zuschauer begrüssen. Wir haben unsere Halle als Bühne eingeweiht und ein tiefes Verständnis für unsere Charaktere entwickelt.",
             image: Kvu_plakat,

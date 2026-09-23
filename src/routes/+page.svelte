@@ -16,8 +16,21 @@
     import BruggetrolleLabor from "$lib/assets/title/bruggetrolle_labor_logo_3.png";
     import IBB_Booster from "$lib/assets/title/ibb_1000.jpg";
     import gv2026 from "$lib/assets/title/gv2026.jpg";
+    import SkalaPlakat from "$lib/assets/current/skalaPlakat.jpg";
 
     const items = [
+        {
+            title: "Unsere aktuelle Produktion: Auf einer Skala von 1 bis 10",
+            subtitle:
+                "Bruggetrolle Labor präsentiert: Kurzszenen und Sketches basierend auf realen Erfahrungen von chonisch kranken Patienten.",
+            date: "20. September 2026",
+            description:
+                "Ein selbstgeschriebenes Stück über das schweizer Gesundheitssystem basierend auf echten Erfahrungen von chronisch kranken Patienten, die alle nur wollen, dass ihnen geholfen wird. In diversen Kurzszenen und Sketches wird auf humorvolle Art und Weise gezeigt, was im Gesundheitssystem alles schieflaufen kann. Von mühsamen Patienten über überfordertes Pflegepersonal bis hin zu inkompetenten oder gar übergriffigen Ärzten ist alles dabei. Mit diesem neuen Stück startet der Theaterverein Brugetrolle diesen Herbst die neue Produktionsreihe «Bruggetrolle Labor», welche experimentelle Stücke von einer Dauer von circa einer Stunde auf die Bühne bringen wird und ohne den massiven Aufwand einer vollen Produktion unsere Theaterlust stillen kann. Der Eintritt ist frei, wir freuen uns aber über Spenden in unserer Kollekte und Ihre Konsumation an unserer Bar, um zukünftige Produktionen zu ermöglichen. Vor und nach der Aufführung haben wir einen Kuchen- und Getränkeverkauf. Die Aufführungen finden am Samstag 7. November um 19 Uhr, Türöffnung 18:30 und am Sonntag 8. November um 17 Uhr, Türöffnung 16:30 in der Turnhalle Au in Lauffohr nahe Brugg statt. Wir freuen uns darauf, euch bei unseren Vorstellungen begrüßen zu dürfen!",
+            image: SkalaPlakat,
+            buttonText: "Hier Tickets reservieren!",
+            buttonHref:
+                "https://eventfrog.ch/de/p/gruppen/auf-einer-skala-von-1-bis-10-7502727715746787486.html",
+        },
         {
             title: "Wir stellen vor: Bruggetrolle Labor",
             subtitle:
@@ -65,7 +78,7 @@
             image: KvUCast,
         },
         {
-            title: "Unsere aktuelle Produktion: Keiner von uns.",
+            title: "Unsere letzte Produktion: Keiner von uns.",
             subtitle:
                 "Das Stück wird am 21. und 28. um 18:30 und am 22. und 29. März 2026 um 16:00 in der Turnhalle Au in Lauffohr aufgeführt.",
             date: "31. Dezember 2025",
