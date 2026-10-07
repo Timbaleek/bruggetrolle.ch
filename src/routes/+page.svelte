@@ -72,7 +72,7 @@
             title: "Die Aufführungen von (K)einer von uns sind vorbei!",
             subtitle:
                 "Bei 4 Aufführungen durften wir über 200 Zuschauer*innen begrüssen. Danke an alle, die dabei waren! ",
-            date: "29. März 2025",
+            date: "29. März 2026",
             description:
                 "Die Aufführungen von (K)einer von uns waren ein voller Erfolg! Es war schön, zusammen auf der Bühne zu stehen und so viele von euch im Publikum zu sehen. Die Aufführungen wurden aufgezeichnet und sogar live übertragen, woraus ein Film entstehen wird. Jetzt geht es nach einer kurzen Pausean die Planung der nächsten Produktion!",
             image: KvUCast,
@@ -83,7 +83,7 @@
                 "Das Stück wird am 21. und 28. um 18:30 und am 22. und 29. März 2026 um 16:00 in der Turnhalle Au in Lauffohr aufgeführt.",
             date: "31. Dezember 2025",
             description:
-                "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf – und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
+                "Unsere aktuelle Produktion ist unser selbstgeschriebenes                Theaterstück Keiner von uns. Eine Fremde kommt in ein scheinbar ruhiges Dorf - und plötzlich gerät das Gleichgewicht ins Wanken. Ihre Anwesenheit löst Fragen aus, bringt Konflikte an die Oberfläche und stellt Beziehungen auf die Probe. Was zunächst wie Neugier wirkt, wird schnell zu Misstrauen, Gerüchten und gegenseitigen Verdächtigungen. Während die Dorfgemeinschaft versucht, Kontrolle zu behalten, zeigt sich: Hinter der Ordnung liegen Geheimnisse, die lange verborgen waren. Die Fremde wird zum Mittelpunkt eines Geschehens, das niemand mehr stoppen kann.",
             image: Kvu_plakat,
         },
         {
@@ -175,10 +175,6 @@
     :root {
         .cover-text {
             font-family: "Chau Philomene One", sans-serif;
-        }
-
-        .divider {
-            height: 3px;
         }
     }
 </style>
